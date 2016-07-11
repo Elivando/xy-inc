@@ -1,6 +1,6 @@
 #Teste projeto backend Zup 
 
-O projeto visa a criação de aplicação backend para gerenciamento de cadastro de Products através do Recuso REST.
+O projeto visa a criação de aplicação backend para gerenciamento de cadastro de Products através do Recurso REST.
 
 ####1) Configuração:
 
@@ -11,7 +11,7 @@ O banco de dados utlizado no projeto foi o MySql é necessario que o mesmo estej
 O servidor web utilizado para os testes foi o tomcat7. Se não estiver configurado fazer download da versão 7 através do link https://tomcat.apache.org/download-70.cgi
 
 - Banco de Dados:
-Criar um database com o nome de “zup_xy-inc” ex: CREATE DATABASE 'zup_xy'; Dar permissões de escrita para o usuário criado no database conforme necessário.
+Criar um database com o nome de “zup_xy-inc” ex: CREATE DATABASE 'zup_xy-inc'; Dar permissões de escrita para o usuário criado no database conforme necessário.
 
 - Deploy:
 Após executar todos os passos anteriores, Acessar a pasta onde o projeto yx-inc-backend foi baixado ou descompactado. 
@@ -42,10 +42,9 @@ O Rest-Assured é usado para testar a integração da aplicação, ele permite d
   - Servidor de Aplicação: Tomcat7. 
   - Banco de dados: MySQL. 
   - Frameworks de testes: JUnit, Rest-Assured.
-  - Outros:  JPA 2.1, Bean Validation 1.1 e etc.
+  - Outros:  JPA 2.1, etc.
   
 O projeto é uma aplicação inicial simples, porem que pode crescer e se transformar em uma aplicação mais completa e robustas. 
-Foi desenvolvida a camada REST com os serviços métods GET,POST, PUT e DELETE para faclitar a integração entre outras aplicações (no casso o app mobile ),
-que por sua vez acessa a camada de persistencia dos dados. 
+Foi desenvolvida a camada REST com os serviços métods GET,POST, PUT e DELETE para faclitar a integração entre outras aplicações (no casso o app mobile ),que por sua vez acessa a camada de persistencia dos dados. 
 Os testes unitarios implementados na aplicação, permite cobertura de testes, extensibilidade, manutenibilidade o que gera maior qualidade a aplicação além de um desenvolvimento agil.
  
